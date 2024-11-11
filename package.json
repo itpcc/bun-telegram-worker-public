@@ -1,0 +1,25 @@
+{
+  "name": "thai-law-telegram-bot",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^0.7.2",
+    "@elysiajs/static": "^0.7.1",
+    "@types/html-to-text": "^9.0.4",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "base32.js": "^0.1.0",
+    "dotenv": "^16.4.5",
+    "elysia": "latest",
+    "html-to-text": "^9.0.5",
+    "tmp-promise": "^3.0.3"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.ts"
+}
